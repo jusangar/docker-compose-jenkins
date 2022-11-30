@@ -1,6 +1,6 @@
 networks:
-    frontend:
-        external: true
+    frontend: # Name of the network
+        external: true # Use an existing network
 
 volumes:
   jenkins_home:
